@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // Used for running automatic tests. DO NOT EDIT
-public class TestEncode {
+public class TestDecode {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     String line = scanner.nextLine();
