@@ -6,7 +6,7 @@ public class TestEncode {
     String line = scanner.nextLine();
     String[] inputs=line.split(",");
     String messageToEncode=inputs[0];
-    int shift =(int)(inputs[1]);
+    int shift =Integer.parseInt(inputs[1]);
     Cipher cipher= new Cipher(shift);
     System.out.println(cipher.encode(messageToEncode));
   }
