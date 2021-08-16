@@ -8,7 +8,14 @@ class Main {
    String sampleEncoded="khuh lv d wrs vhfuhw phvvdjh";
    int shift =3;
    Cipher cipher= new Cipher(shift);
-   System.out.println("Did it work?"+cipher.encode(messageToEncode).equals(sampleEncoded));
+   String myEncodedResult = cipher.encode(messageToEncode);
+   boolean encodeWorked = myEncodedResult.equals(sampleEncoded);
+   System.out.println("Did encode work?"+ encodedWorked);
+    
+   String myDecodedResult = cipher.decode(sampleEncoded);
+   boolean decodeWorked = myDecodedResult.equals(messageToEncode);
+   System.out.println("Did decode work?"+ decodedWorked);
+    
 
   // TODO: implement 3 more test cases, like the one above using inputs that handle the edge cases you've identified.
   }
