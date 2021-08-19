@@ -11,18 +11,18 @@
 
 
 
-1. Ask clarifying questions (5 pts)
+1. Ask clarifying questions (10 pts)
 2. Walk through an example (5 pts)
-3. List  edge cases(5 pts)
+3. List  edge cases(10 pts)
 4. Describe approach as you would to a little cousin who does not know anything about computer science terms (15 pts)
 5. Based off your description, identify keywords that hint what ds&a you should use in your implementation (5 pts)
-6. [individually] Write Code (35 pts)
-    1. Add comments describing what the code does (5 pts)
-    2. Define method signature (what does it return? What are its inputs?) (5 pts)
+6. [individually] Write Code (30 pts)
+    1. Add comments describing what the code does 
+    2. Check that your tests pass
     3. Handle edge cases
-7. List 3 test cases based off edge cases, write tests  (15 pts)
-8. Followup Problem1: You are at headquarters, and receive an encrypted message. You know the number by which it has been shifted. Write a method to decrypt it (5 pts).
-9. Bonus Problem 1: You intercepted a message from your enemy, who also uses cesar ciphers. What does it say? How much was it shifted by? (5 extra lab pts)
+7. write 3 tests that involve your edge cases described above  (15 pts)
+8. Followup Problem: You are at headquarters, and receive an encrypted message. You know the number by which it has been shifted. Write a method to decrypt it (10 pts).
+9. Bonus Problem 1: You intercepted a message from your enemy, who also uses cesar ciphers. What does it say? How much was it shifted by? 
 
 *Nv dvvk rk dzuezxyk ze fiuvi kf gcre fli rkkrtb. Sizex tffbzvj reu screbvkj wfi kyv gzccfn wfik.*
 
