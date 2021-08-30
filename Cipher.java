@@ -1,16 +1,16 @@
 public class Cipher{
-  int shift;
-  public Cipher(int shift){
-    this.shift=shift;
+
+  public Cipher(){
+
   }
-     // TODO: write a function that implements a cesear cipher
-  public String encode(String s){
+  // TODO: write a function that implements a cesear cipher
+  public static String encode(String s, int shift){
     return s;
   }
 
-  // Followup Problem1: You are at headquarters, and receive an encrypted message. 
+  // Followup Problem: You are at headquarters, and receive an encrypted message.
   // You know the number by which it has been shifted. Write a method to decrypt it.
-  public String decode(String s){
+  public static String decode(String s, int shift){
     return s;
   }
 }

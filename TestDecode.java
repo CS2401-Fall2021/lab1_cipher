@@ -7,7 +7,6 @@ public class TestDecode {
     String[] inputs=line.split(",");
     String messageToDecode=inputs[0];
     int shift =Integer.parseInt(inputs[1]);
-    Cipher cipher= new Cipher(shift);
-    System.out.println(cipher.decode(messageToDecode));
+    System.out.println(Cipher.decode(messageToDecode,shift));
   }
 }
